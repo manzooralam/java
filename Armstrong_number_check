@@ -1,0 +1,32 @@
+class ArmstrongNumber{
+  
+  void check(int n){
+  int digit, r, i, temp, sum=0;
+  temp= n;
+  //count total number of digit of the n number 
+    while(n>0){
+       digit=  digit+ 1;
+       n= n/10;
+    }
+    n= temp;
+    while(n>0){
+      r= n%10;
+      sum= sum + pow(r, digit);
+      n = n/10;
+    }
+    if(sum==temp){
+      System.out.print(temp + "is Armstrong number");
+    }
+    else
+    System.out.print(temp + "is not Armstrong Number")
+  }
+  
+  public static void main(String[]args){
+  int num;
+  System.out.print("Enter a number to check armstrong : ");
+  Scanner in = new Scanner(System.in);
+  num = in.nextInt();
+  check(num);
+  
+  }
+}
