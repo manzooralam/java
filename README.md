@@ -1,4 +1,4 @@
-<A>There are four oops concepts: 
+There are four oops concepts :  
     <a> Inheritance
     <b> Polymorphism
     <c> Encapsulation
