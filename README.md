@@ -1,2 +1,5 @@
-<Q-1> if you pass reference to the static member function, what happend , changes done whole class or not?
-  Ans: 
+There are four oops concepts:
+    <a> Inheritance
+    <b> Polymorphism
+    <c> Encapsulation
+    <d> Abstruction
